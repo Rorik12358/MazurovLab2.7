@@ -9,7 +9,8 @@ public class Main {
         Monitor monitor = new Monitor("Samsung", 120, "AB1234567CD", 1280, 1024);
         Monitor monitor1 = new Monitor("Samsung", 120, "AB1234567CD", 1280, 1024);
         Device device1 = new Device("Samsung", 120, "AB1234567CD");
-        System.out.println(device+"\n"+monitor);
+        EthernetAdapter ethernetAdapter = new EthernetAdapter("HP",12.99F,"GF342PP",124, "196.213.199.15");
+        System.out.println(device+"\n"+monitor+"\n"+ethernetAdapter);
         System.out.println(device.equals(device1));
     }
 }
